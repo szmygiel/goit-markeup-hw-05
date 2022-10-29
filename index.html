@@ -53,15 +53,16 @@
 
     <main>
       
-      <div class="lol">
+      
       <section class="section-main-title background">
         <div class="container-main-title">
         <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
          </div>
-        <button type="button" class="button-header">Zamów usługę</button>
-       
+        <button type="button"  class="button-header close-btn" data-modal-open>Zamów usługę</button>
+       </div>
+        </div>
       </section>
-    </div>
+   
 
  <div class="icons-under-header-container">
   <ul class="list icons-list under-header">
@@ -339,5 +340,12 @@
 
     </footer>
     </section>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+      <script src="modal.js"></script>
   </body>
 </html>
