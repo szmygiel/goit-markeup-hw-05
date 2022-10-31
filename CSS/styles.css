@@ -688,23 +688,20 @@ color:var(--interactive-elements-color);
 
 .box {
  position: relative;
-  width: 100%;
   overflow: hidden;
    cursor: pointer;
-   z-index: 2;
 }
 
 
 .overlay {
   position: absolute;
-  height: 294px;
-  width: 370px;
-  top: 0;
+  Width: 370px;
+  Height: 294px;
   bottom: 0;
-  left: 0;
-  right: 0;
+  top: 0;
   opacity: 0;
-  transition: .5s ease;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   
@@ -714,12 +711,9 @@ color:var(--interactive-elements-color);
   opacity: 1;
   transform: translateY(0);
  
+ 
 }
 
-figure.portfolio-figure:hover {
-  opacity: 1;
-  transform: translateY(0);  
-}
 
 .text {
   color: rgba(255, 255, 255, 1);
