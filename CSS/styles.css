@@ -303,6 +303,19 @@ justify-content: center;
 gap: 30px;
 }
 
+.thumb {
+  position: relative;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+
+}
+
+.label {
+position: absolute;
+bottom: 0;
+left: 0;
+}
 
 
 /* _____________Section: Nasz zespół___________________ */
@@ -341,6 +354,7 @@ border-radius: 0px 0px 4px 4px;
 figcaption {
   margin-top: 30px;
   text-align: center;
+
 }
 
 .team-pictures {
@@ -484,15 +498,21 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 }
 
 .figcaption-portfolio {
+background: white;
+position: relative;
 font-size: 16px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.03em;
 text-align: left;
 color: var(--secondary-font-color);
-margin-top: 20px;
-margin-bottom: 4px;
-padding: 0px 24px;
+padding-top: 20px;
+padding-bottom: 4px;
+padding-left: 24px;
+padding-right: 24px;
+margin-top: 0;
+
+
 }
 
 .frames-portfolio {
