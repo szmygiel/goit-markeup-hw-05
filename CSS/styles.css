@@ -111,7 +111,7 @@ align-items: center;
   color: var(--interactive-elements-color);
 }
 
-.link-menu:after {
+.link-menu.nav:after {
 content: "";
 position: absolute;
 width: 100%;
@@ -126,7 +126,7 @@ transition: width .50s;
 
 }
 
-.link-menu:hover:after {
+.link-menu.nav:hover:after {
   width: 100%;
 }
 
@@ -324,6 +324,7 @@ background-color: white;
 display: flex;
 justify-content: center;
 gap: 30px;
+height: 294px;
 }
 
 .thumb {
@@ -716,6 +717,7 @@ color:var(--interactive-elements-color);
   border-radius: 4px;
 }
 
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -759,8 +761,6 @@ color:var(--interactive-elements-color);
 .box:hover .overlay {
   opacity: 1;
   transform: translateY(0);
- 
- 
 }
 
 
