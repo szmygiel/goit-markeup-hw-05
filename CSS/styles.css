@@ -129,7 +129,7 @@ width: 0;
 
 }
 
-.link-menu.nav.portfolio::after {
+.link-menu.nav.underline::after {
 content: "";
 position: absolute;
 width: 100%;
