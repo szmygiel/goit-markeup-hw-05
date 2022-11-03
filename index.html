@@ -53,8 +53,9 @@
 
     <main>
       
+     
       
-      <section class="section-main-title background">
+      <section class="section-main-title background modal-container">
         <div class="container-main-title">
         <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
          </div>
@@ -62,6 +63,17 @@
        </div>
         </div>
       </section>
+
+    <!-- MODAL CLOSE  -->
+
+       <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close><svg class="symbol-x" width="11" height="11">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg></button>
+      </div>
+    </div>
+      
    
 
  <div class="icons-under-header-container">
@@ -344,13 +356,7 @@
     </footer>
     </section>
 
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="close-btn" data-modal-close><svg class="symbol-x" width="11" height="11">
-          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-          </svg></button>
-      </div>
-    </div>
+   
       <script src="modal.js"></script>
   </body>
 </html>
